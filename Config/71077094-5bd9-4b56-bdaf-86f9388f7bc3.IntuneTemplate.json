@@ -1,0 +1,7 @@
+{
+  "Displayname": "Test",
+  "Description": "Test",
+  "RAWJson": "{\n  \"Test\": \"Test\"\n}",
+  "Type": "Admin",
+  "GUID": "71077094-5bd9-4b56-bdaf-86f9388f7bc3"
+}

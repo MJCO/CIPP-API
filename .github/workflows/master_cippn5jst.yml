@@ -1,11 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-<<<<<<<< HEAD:.github/workflows/master_cippn5jst.yml
 name: Build and deploy Powershell project to Azure Function App - cippn5jst
-========
-name: Build and deploy Powershell project to Azure Function App - cipp4i6t3
->>>>>>>> upstream/master:.github/workflows/dev_cipp4i6t3.yml
 
 on:
   push:
@@ -28,14 +24,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-<<<<<<<< HEAD:.github/workflows/master_cippn5jst.yml
           app-name: 'cippn5jst'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E395E760110846D7998BFD7562D51496 }}
-========
-          app-name: 'cipp4i6t3'
-          slot-name: 'Production'
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D257A31ACA24925A112AF5FFC2BEAFE }}
->>>>>>>> upstream/master:.github/workflows/dev_cipp4i6t3.yml
